@@ -1,0 +1,51 @@
+body {
+  padding: 20px;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#full {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: #99a2b1;
+  z-index: 1;
+  top: 90%;
+  left: 95%;
+  border-radius: 80%;
+}
+#changeScreen {
+  width: 60%;
+  margin-top: 20%;
+  margin-left: 19%;
+}
+
+#musicOff {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: #99a2b1;
+  z-index: 2;
+  top: 80%;
+  left: 95%;
+  border-radius: 80%;
+}
+
+#musicOff_Change {
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+@media only screen and (min-device-width: 1920px) and (max-device-width: 1920px) {
+  #full{
+    left: 93%;
+  }
+  #musicOff {
+    left: 93%;
+  }
+}

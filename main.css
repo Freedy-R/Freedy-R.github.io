@@ -1,0 +1,228 @@
+body {
+  background-attachment: fixed;
+  cursor: url("icon/cursor.avi") default !important;
+  color: #fff;
+}
+
+.przycisk {
+  margin-bottom: 10px;
+}
+
+div::selection {
+  background-color: aqua;
+}
+
+h1::selection {
+  background-color: aquamarine;
+}
+
+p::selection {
+  background-color: deeppink;
+}
+
+*:hover {
+  cursor: url("icon/cursor.avi") default !important ;
+}
+
+/* menu i baner */
+
+.logo {
+  margin-left: 50px;
+  margin-top: 50px;
+  z-index: 2;
+}
+
+.navigation {
+  margin-left: auto;
+  margin-right: auto;
+  grid-area: navigation;
+  margin-top: 30px;
+  background-color: #99a2b1;
+  border-radius: 40px;
+  position: sticky;
+  top: 25px;
+  z-index: 10;
+}
+
+.jeden {
+  grid-area: jeden;
+}
+
+.dwa {
+  grid-area: dwa;
+}
+
+.trzy {
+  grid-area: trzy;
+}
+
+.cztery {
+  grid-area: cztery;
+}
+
+.piec {
+  grid-area: piec;
+}
+
+.navigation ul {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px;
+  grid-template-areas: "jeden dwa piec trzy cztery";
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navigation ul li a {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navigation ul li a:hover {
+  color: black;
+  font-size: 22px;
+}
+
+.baner {
+  grid-area: baner;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 10px;
+  grid-template-areas: "pusteh2 h2 h2 pusteh2_1";
+}
+
+.pusteh2 {
+  grid-area: pusteh2;
+}
+h1 {
+  margin-top: 100px;
+}
+.baner h2 {
+  grid-area: h2;
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+}
+
+.pusteh2_1 {
+  grid-area: pusteh2_1;
+}
+
+.puste3 {
+  grid-area: puste3;
+}
+
+.wrapper {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 700px;
+  grid-template-areas: "baner baner baner baner";
+}
+
+/* Tu zaczyna się historia marki audi */
+
+.naglowek {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* modele*/
+.naglowek_model {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.row img {
+  border-radius: 10px;
+}
+
+.modele .row img:hover {
+  transition-duration: 0.5s;
+  opacity: 50%;
+}
+
+.modele {
+  padding: 50px;
+}
+
+/* opis modeli*/
+.naglowek {
+  margin-top: 250px;
+}
+
+/*footer */
+.social-media {
+  color: white;
+  background-color: black;
+}
+
+.container .row li {
+  color: white;
+}
+
+.container .row h4 {
+  color: white;
+  margin-top: 20px;
+}
+
+.container .row a {
+  text-decoration: none;
+}
+
+.container .row ul {
+  list-style-type: none;
+}
+
+.container .row h4 {
+  text-align: center;
+}
+
+.container .row ul {
+  text-align: center;
+}
+
+.container .row li:hover {
+  color: gray;
+}
+
+.container .row h4:hover {
+  color: gray;
+}
+
+.media {
+  text-align: center;
+}
+
+.footer {
+  border-radius: 4px;
+  background-color: black;
+}
+
+/*ciekawostki*/
+.kartka {
+  background-image: url("../icon/kartka.png");
+  border-radius: 20px;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.opis p {
+  font-family: "Balsamiq Sans", cursive;
+}

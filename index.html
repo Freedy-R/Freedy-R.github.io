@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Układ słoneczny</title>
+    <meta name="author" content="Aleksadner i Fryderyk" />
+    <meta
+      name="description"
+      content="Projekt na lekcje projektowania stron internetowych"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--icon -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="icon/rocket-ship.ico"
+      id="favicon"
+    />
+    <!--css bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body id="glowna">
+    <main>
+      <div id="musicOff">
+        <img id="musicOff_Change" src="icon/volume.png" />
+      </div>
+      <div id="full">
+        <img id="changeScreen" src="icon/maximalize.png" />
+      </div>
+      <canvas id="bg"></canvas>
+      <div class="logo">
+        <a href="https://wejherowo-elektryk.pl/"
+          ><img src="icon/logoel3.png" alt="Logo elektryka "
+        /></a>
+      </div>
+
+      <div class="navigation">
+        <ul class="nav">
+          <li class="jeden">
+            <a href="#glowna">Strona główna</a>
+          </li>
+          <li class="dwa">
+            <a href="#historia">Układ słoneczny</a>
+          </li>
+          <li class="piec">
+            <a href="#modele">Planety</a>
+          </li>
+          <li class="trzy">
+            <a href="#ciekawostki">Ciekawostki</a>
+          </li>
+          <li class="cztery">
+            <a href="#o_nas">O nas</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="wrapper">
+        <!-- baner-->
+        <div class="baner">
+          <h2 class="pusteh2"></h2>
+          <h2>układ słoneczny</h2>
+          <h2 class="pusteh2_1"></h2>
+        </div>
+        <div class="puste3"></div>
+      </div>
+
+      <div class="naglowek" id="historia">
+        <h1>Historia układu słonecznego</h1>
+      </div>
+      <!-- historia-->
+      <div class="content_historia">
+        <div class="row ms-5 mb-5 me-5 mt-4">
+          <div class="col-lg-8">
+            <div>
+              <p style="font-size: 20px; font-family: 'Balsamiq Sans', cursive">
+                Obecnie uważa się, że ponad 4.5 miliarda lat temu w jednym z
+                obłoków gazowo - pyłowych zaczęło się formować zagęszczenie.
+                Cząstkom został nadany kierunek ruchu - zgodnie ze wzrastającym
+                zagęszczeniem. Nie wiadomo co było tego przyczyną. Obłoki
+                kurczył się coraz bardziej i po pewnym czasie z bezkształtnej
+                masy wyłonił się kulisty kształt zwany Protosłońcem. Twór dalej
+                się kurczył co powodowało szybki wzrost temperatury w jego
+                wnętrzu. Po osiągnięciu temperatury ok. 10- 10K Protosłońce
+                zaczęło świecić . Od tego momentu proces kurczenia przebiegał
+                już dużo wolniej.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center"></div>
+        </div>
+        <div class="row ms-5 mb-5 me-5">
+          <div class="col-lg-4 text-center"></div>
+          <div class="col-lg-8">
+            <div>
+              <p style="font-size: 20px; font-family: 'Balsamiq Sans', cursive">
+                Takiemu wirowaniu mgławicy i przyjmowaniu przez nią kształtu
+                dysku z Protosłońcem w centrum towarzyszyło zderzanie się ziaren
+                pyłu. Prowadziło to do ich zlepiania w bryłki, których skład
+                zależał od miejsca powstania. Na skutek przyciągania
+                grawitacyjnego grudki łączyły się w coraz większe ciała, aż w
+                ciągu kilkuset tysięcy lat powstały tzw. planetozymale. Z nich z
+                kolei po kolejnych paru milionów lat wykształciły się planety.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="naglowek_model" id="modele">
+        <h1>Modele</h1>
+        <p>Kliknij model i sprawdź</p>
+      </div>
+
+      <!--Planety-->
+      <div class="modele">
+        <div class="row">
+          <div class="model1 col-lg-4 mb-5 text-center">
+            <figure class="figure">
+              <a href="#a1"
+                ><img
+                  src="Addons/3D models/planets/mercury/Mercury.png"
+                  class="figure-img img-fluid"
+                  alt="Merkury"
+              /></a>
+              <figcaption class="figure-caption">Merkury</figcaption>
+            </figure>
+          </div>
+          <div class="model2 col-lg-4 mb-5 text-center">
+            <figure class="figure">
+              <a href="#a3"
+                ><img
+                  src="Addons/3D models/planets/venus/Venuss.png"
+                  class="figure-img img-fluid"
+                  alt="Wenus"
+              /></a>
+              <figcaption class="figure-caption">Wenus</figcaption>
+            </figure>
+          </div>
+          <div class="model3 col-lg-4 mb-5 text-center">
+            <figure class="figure">
+              <a href="#a4"
+                ><img
+                  src="Addons/3D models/planets/earth/earth.png"
+                  class="figure-img img-fluid"
+                  alt="Ziemia"
+              /></a>
+              <figcaption class="figure-caption">Ziemia</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="model4 col-lg-4 mb-5 text-center">
+            <figure class="figure">
+              <a href="#a5"
+                ><img
+                  src="Addons/3D models/planets/mars/mars.png"
+                  class="figure-img img-fluid"
+                  alt="Mars"
+              /></a>
+              <figcaption class="figure-caption">Mars</figcaption>
+            </figure>
+          </div>
+          <div class="model5 col-lg-4 mb-5 text-center">
+            <figure class="figure">
+              <a href="#a6"
+                ><img
+                  src="Addons/3D models/planets/jupiter/jupiter.png"
+                  class="figure-img img-fluid"
+                  alt="Jowisz"
+              /></a>
+              <figcaption class="figure-caption">Jowisz</figcaption>
+            </figure>
+          </div>
+          <div class="model6 col-lg-4 mb-5 text-center">
+            <figure class="figure">
+              <a href="#a7"
+                ><img
+                  src="Addons/3D models/planets/saturn/saturn.png"
+                  class="figure-img img-fluid"
+                  alt="Saturn"
+              /></a>
+              <figcaption class="figure-caption">Saturn</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="model7 col-lg-4 mb-5 text-center">
+            <figure class="figure">
+              <a href="#a8"
+                ><img
+                  src="Addons/3D models/planets/uranus/uranus.png"
+                  class="figure-img img-fluid"
+                  alt="Uran"
+              /></a>
+              <figcaption class="figure-caption">Uran</figcaption>
+            </figure>
+          </div>
+          <div class="model8 col-lg-4 mb-5 text-center">
+            <figure class="figure">
+              <a href="#q2"
+                ><img
+                  src="Addons/3D models/planets/neptune/neptune.png"
+                  class="figure-img img-fluid"
+                  alt="Neptun"
+              /></a>
+              <figcaption class="figure-caption">Neptun</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <!--Opis modeli -->
+
+      <div class="naglowek" id="a1">
+        <h1>Merkury</h1>
+      </div>
+      <div class="opis_modeli">
+        <div class="row ms-5 mb-5 me-5">
+          <div class="opis col-lg-8 mb-3 mt-5">
+            <p>
+              Merkury jest najmniejszą oraz najbliższą względem Słońca planetą w
+              Układzie Słonecznym. Merkury jest dość trudny do obserwacji z
+              Ziemi ze względu na lokalizację. Mimo to widoczny jest on gołym
+              okiem tuż po zachodzie Słońca lub przed jego wschodem. Pierwsze
+              opisane obserwacje najmniejszej planety Układu Słonecznego
+              datowane są na starożytność. Mariner 10 to pierwsza sonda
+              kosmiczna, która zbliżyła się do Merkurego. Najmniejsza odległość
+              Marinera do Merkurego to zaledwie 327 kilometrów. W czasie misji
+              wykonano około 2500 zdjęć powierzchni planety. Mariner 10 stał się
+              pierwszym sztucznym satelitą pierwszej planety Układu Słonecznego.
+              Jego zapas paliwa wyczerpał się, lecz krąży on najprawdopodobniej
+              po orbicie planety do dziś.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <img
+              src="Addons/3D models/planets/mercury/Mercury.png"
+              width="65%"
+              alt="merkury"
+            />
+          </div>
+        </div>
+
+        <div class="naglowek" id="a3">
+          <h1>Wenus</h1>
+        </div>
+
+        <div class="row ms-5 mb-5 me-5">
+          <div class="opis col-lg-8 mt-5">
+            <p>
+              Druga planeta Układu Słonecznego, Wenus jest najjaśniejszym po
+              Słońcu i Księżycu obiektem widzianym na ziemskim niebie. Podobnie
+              jak Merkury jest widoczna jedynie przed wschodem lub tuż po
+              zachodzie Słońca, jednak jej jasność pozwala na swobodną
+              obserwację. Ze względu na swą wielkość, skład chemiczny i masę,
+              określana jest często jako siostra Ziemi (lub planeta bliźniacza).
+              Niestety warunki panujące na jej powierzchni nie zachęcają do
+              kolonizacji. Ciśnienie atmosferyczne jest ponad dziewięćdziesiąt
+              razy większe od ziemskiego.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <img
+              src="Addons/3D models/planets/venus/Venuss.png"
+              width="65%"
+              alt="wenus"
+            />
+          </div>
+        </div>
+
+        <div class="naglowek" id="a4">
+          <h1>Ziemia</h1>
+        </div>
+
+        <div class="row ms-5 mb-5 me-5">
+          <div class="opis col-lg-8 mt-5">
+            <p>
+              Ziemia jest trzecią planetą, licząc od Słońca i piątą pod względem
+              wielkości w Układzie Słonecznym. Jest to również największa
+              planeta skalista. Ziemia jest jedynym znanym we wszechświecie
+              miejscem, gdzie istnieje życie. Nasza planeta uformowała się około
+              4.5 miliarda lat temu.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <img
+              src="Addons/3D models/planets/earth/earth.png"
+              width="65%"
+              alt="mars"
+            />
+          </div>
+        </div>
+
+        <div class="naglowek" id="a5">
+          <h1>Mars</h1>
+        </div>
+
+        <div class="row ms-5 mb-5 me-5">
+          <div class="opis col-lg-8 mt-5">
+            <p>
+              Mars to czwarta planeta Układu Słonecznego i ostatnia z grupy
+              planet skalistych. Jego nazwa pochodzi od imienia rzymskiego boga
+              wojny. W rzeczywistości rdzawy kolor Marsa pochodzi od tlenków
+              żelaza, które pokrywają powierzchnię planety. Mimo że to Wenus
+              jest określana bliźniaczą planetą Ziemi, to właśnie na Marsie
+              zaobserwowano bardziej sprzyjające warunki do kolonizacji, głównie
+              niższe temperatury powierzchni oraz udokumentowane źródła wody
+              podziemnej (w formie lodu).
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <img
+              src="Addons/3D models/planets/mars/mars.png"
+              width="65%"
+              alt="mars"
+            />
+          </div>
+        </div>
+
+        <div class="naglowek" id="a6">
+          <h1>Jowisz</h1>
+        </div>
+
+        <div class="row ms-5 mb-5 me-5">
+          <div class="opis col-lg-8 mt-5">
+            <p>
+              Jowisz to piąta planeta, licząc od Słońca i pierwsza z tzw.
+              gazowych olbrzymów (inaczej określanych planetami jowiszowymi).
+              Jowisz jest największą planetą Układu Słonecznego — jego masa
+              szacowana jest na ponad dwa i pół raza większą niż masa wszystkich
+              pozostałych planet Układu Słonecznego razem wziętych.Ze względu na
+              swoją wielkość Jowisz jest czwartym najjaśniejszym ciałem
+              niebieskim widocznym na ziemskim niebie po Słońcu, Księżycu i
+              Wenus. Jowisz składa się w trzech czwartych z wodoru, a w jednej
+              czwartej z helu. Ten gazowy olbrzym najprawdopodobniej posiada
+              stałe, skaliste jądro. Wokół niego krąży przynajmniej 79
+              naturalnych satelitów, z których największy — Ganimedes — jest
+              większy niż Merkury.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <img
+              src="Addons/3D models/planets/jupiter/jupiter.png"
+              width="65%"
+              alt="jowisz"
+            />
+          </div>
+        </div>
+
+        <div class="naglowek" id="a7">
+          <h1>Saturn</h1>
+        </div>
+
+        <div class="row ms-5 mb-5 me-5">
+          <div class="opis col-lg-8 mt-5">
+            <p>
+              Kolejną, szóstą planetą Układu Słonecznego i drugim gazowym
+              olbrzymem jest Saturn. Znakiem rozpoznawczym Saturna są naturalne
+              pierścienie widoczne z Ziemi, składające się głównie z lodu i
+              odłamków skalnych. Jest to druga pod względem wielkości planeta
+              naszego układu. Saturn ma jednocześnie najwięcej naturalnych
+              satelitów w układzie planetarnym. Planeta ma przynajmniej
+              osiemdziesiąt dwa księżyce. Zakłada się, że Saturn ma zbliżoną
+              strukturę do Jowisza — składa się głównie z wodoru i helu oraz ze
+              skalistego jądra.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <img
+              src="Addons/3D models/planets/saturn/saturn.png"
+              width="65%"
+              alt="saturn"
+            />
+          </div>
+        </div>
+
+        <div class="naglowek" id="a8">
+          <h1>Uran</h1>
+        </div>
+
+        <div class="row ms-5 mb-5 me-5">
+          <div class="opis col-lg-8 mt-5">
+            <p>
+              Siódmą planetą Układu Słonecznego jest Uran. Mimo że jest on
+              określany jako gazowy olbrzym, a jego skład chemiczny to głównie
+              wodór i hel, to Uran w swym składzie ma również fragmenty lodu
+              (amoniak, woda, metan i inne węglowodory). Stąd też Uran jest
+              czasem klasyfikowany w innej grupie planet, tzw. lodowych
+              olbrzymów. Ciekawostką jest to, że oś obrotu planety znajduje się
+              blisko płaszczyzny jej orbity, co sprawia, że bieguny Urana
+              znajdują się tam, gdzie zwykle zlokalizowany jest równik innych
+              planet. Został odkryty dopiero pod koniec XVIII wieku i był
+              początkowo mylony z gwiazdą lub kometą. Zewnętrzna struktura
+              planety jest jednolita — nie można zaobserwować żadnej aktywności
+              pogodowej na jej powierzchni.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <img
+              src="Addons/3D models/planets/uranus/uranus.png"
+              width="65%"
+              alt="uran"
+            />
+          </div>
+        </div>
+
+        <div class="naglowek" id="q2">
+          <h1>Neptun</h1>
+        </div>
+
+        <div class="row ms-5 mb-5 me-5">
+          <div class="opis col-lg-8 mt-5">
+            <p>
+              Ósmą planetą układu Słonecznego jest Neptun. Neptun określany jest
+              bratem bliźniakiem Urana ze względu na swoją wielkość oraz
+              obecność lodu w atmosferze. W przeciwieństwie do swojego
+              galaktycznego sąsiada Neptun charakteryzuje się wyraźnymi układami
+              pogodowymi tworzonymi przez najsilniejszy wiatr obserwowany w
+              naszym układzie planetarnym.
+            </p>
+          </div>
+          <div class="col-lg-4 text-center mt-5">
+            <img
+              src="Addons/3D models/planets/neptune/neptune.png"
+              width="65%"
+              alt="neptun"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="naglowek" id="ciekawostki">
+        <h1>Ciekawostki</h1>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="kartka col-lg-5 mb-5 m-4">
+            W wielu filmach science fiction statki kosmiczne są często zagrożone
+            przez pola asteroidów. W rzeczywistości, jedyny pas asteroidów, o
+            którym wiemy, istnieje między Marsem a Jowiszem i choć są w nim
+            dziesiątki tysięcy asteroidów, to są one dość szeroko rozstawione i
+            prawdopodobieństwo kolizji z jednym jest małe.
+          </div>
+
+          <div class="kartka col-lg-5 mb-5 m-4">
+            Układ Słoneczny znacznie się rozwinął od czasu jego powstania. Wiele
+            księżyców utworzyło się z krążkujących dysków gazu i pyłu wokół
+            swoich planet macierzystych, podczas gdy inne księżyce
+            prawdopodobnie utworzyły się samodzielnie i zostały później
+            schwytane przez ich planety. Jeszcze inne, jak Księżyc Ziemi, mogą
+            być wynikiem gigantycznych kolizji.
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="kartka col-lg-5 mb-5 m-4">
+            Niemal wszystko na Ziemi jest rzadkim pierwiastkiem. Skład
+            pierwiastkowy planety Ziemia to głównie żelazo, tlen, krzem, magnez,
+            siarka, nikiel, wapń, sód i aluminium. Podczas gdy takie pierwiastki
+            zostały wykryte w innych miejscach wszechświata, są one jedynie
+            pierwiastkami śladowymi, przesłoniętymi znacznie większą ilością
+            wodoru i helu.
+          </div>
+          <div class="kartka col-lg-5 mb-5 m-4">
+            Temperatura wewnątrz Słońca może osiągnąć 15 milionów stopni
+            Celsjusza. W jądrze Słońca energia jest wytwarzana przez syntezę
+            jądrową, podczas gdy wodór przekształca się w hel. Ponieważ gorące
+            obiekty generalnie rozszerzają się, Słońce eksplodowałoby jak
+            gigantyczna bomba, gdyby nie jego ogromna siła grawitacyjna.
+            Temperatura na powierzchni Słońca wynosi około 5600 stopni
+            Celsjusza.
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="kartka col-lg-5 mb-5 m-4">
+            Mechanizm, który powoduje orbitowanie obiektów w Układzie
+            Słonecznym, jest jedną z podstawowych sił natury: grawitacją.
+            Podczas gdy naturalną tendencją obiektów w Układzie Słonecznym jest
+            kontynuacja prostej linii ruchu, Słońce wywiera siłę grawitacji na
+            każdy obiekt i dlatego „zagina” prostą drogę do zakrętu.
+          </div>
+          <div class="kartka col-lg-5 mb-5 m-4">
+            W układzie słonecznym znaleziono 194 księżyce, 3583 komety i 796289
+            asteroid. Liczby te cały czas rosną.
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </main>
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-4">
+        <section class="mb-4">
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #3b5998"
+            href="https://www.facebook.com/Solar-System"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #55acee"
+            href="https://twitter.com/Solar-System lang=pl"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="https://www.instagram.com/Solar-System"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <a
+            class="btn btn-primary btn-floating m-1"
+            style="background-color: #ff0000"
+            href="https://www.youtube.com/Solar-System"
+            role="button"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </section>
+
+        <section class="">
+          <form action="">
+            <div class="row d-flex justify-content-center">
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+
+              <div class="col-md-5 col-12">
+                <div class="form-outline form-white mb-4">
+                  <input type="email" id="form5Example2" class="form-control" />
+                  <label class="form-label" for="form5Example2"
+                    >Email address</label
+                  >
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subskrybuj
+                </button>
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
