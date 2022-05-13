@@ -182,15 +182,15 @@ neptune.position.x = sunRad + 480.8;
 let cords = document.getElementById("coords");
 function animate() {
   requestAnimationFrame(animate);
-  // sun.rotateY(0.001997);
-  // mercuryObj.rotateY(0.0474);
-  // venusObj.rotateY(0.035);
-  // earthObj.rotateY(0.0298);
-  // marsObj.rotateY(0.0241);
-  // jupiterObj.rotateY(0.0131);
-  // saturnObj.rotateY(0.0097);
-  // uranusObj.rotateY(0.0068);
-  // neptuneObj.rotateY(0.0054);
+  sun.rotateY(0.001997);
+  mercuryObj.rotateY(0.0474);
+  venusObj.rotateY(0.035);
+  earthObj.rotateY(0.0298);
+  marsObj.rotateY(0.0241);
+  jupiterObj.rotateY(0.0131);
+  saturnObj.rotateY(0.0097);
+  uranusObj.rotateY(0.0068);
+  neptuneObj.rotateY(0.0054);
   renderer.render(scene, camera);
   controls.update();
 }
